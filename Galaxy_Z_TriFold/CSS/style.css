@@ -4,7 +4,7 @@ body {
   margin: 0;
   padding: 0;
   line-height: 1.6;
-  background-image: url('../IMG/back.webp');
+  background:linear-gradient(45deg,#0d4ba8,#0f9dc9,#113e97);
   background-size: cover;
   background-position: center;
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
@@ -20,7 +20,7 @@ header {
   color: #ffffff;
   margin: 40px;
   border-radius: 10px;
-  transition: all 0.3s ease;
+  transition: all 0.5s ease;
   text-align: center;
 }
 
@@ -110,7 +110,7 @@ header {
     flex-wrap: wrap;
     gap: 10px;
     justify-content: center; /* دکمه‌ها در هر ردیف وسط‌چین باشن */
-    transition: transform 0.6s ease, box-shadow 0.6s ease;
+    transition: transform 0.9s ease, box-shadow 0.9s ease;
     
     
 }

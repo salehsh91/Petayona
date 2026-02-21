@@ -4,7 +4,7 @@ body {
   margin: 0;
   padding: 0;
   line-height: 1.6;
-  background-image: url('../IMG/back.webp');
+  background:linear-gradient(90deg ,#70da34, #b9e009c5,#70da34,#70da34);
   background-size: cover;
   background-position: center;
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
@@ -14,21 +14,21 @@ body {
 
 header {
   padding: 20px;
-    background: #007bff77;
+    background: #10ceb571;
   backdrop-filter: blur(15px);
   -webkit-backdrop-filter: blur(15px);
   color: #ffffff;
   margin: 40px;
   border-radius: 10px;
-  transition: all 0.3s ease;
+  transition: all 0.5s ease;
   text-align: center;
 }
 
  header:hover {
-  background-color: #00aeff73;
+  background-color: #2bdbbea2;
 
   .box-header {
-    background-color: #007bff
+    background-color: #d9ff0056
   }
 
   transform: scale(1.05);
@@ -43,7 +43,7 @@ header {
 }
 
 .box-header {
-  background-color: #00aeff;
+  background-color: #00ff4c5d;
   transition: all 0.3s ease;
   border-radius: 10px;
 }
@@ -72,12 +72,13 @@ header {
   max-width: 1000px;
   margin: 20px;
   padding: 1rem;
-    background: #007bff77;
+    background: #48ff003d;
   backdrop-filter: blur(15px);
   -webkit-backdrop-filter: blur(15px);
   color: #ffffff;
   border-radius: 10px;
   box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .text p {
@@ -86,6 +87,11 @@ header {
   white-space: normal; /* مهم: اجازه میده متن خودش بشکنه */
   word-wrap: break-word; /* اگه یه کلمه خیلی بزرگ باشه هم بشکنه */
 }
+.text:hover{
+  transform: translateY(-10px) scale(1.05);
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.3);
+}
+
 
 .shortcat {
   display: flex;
@@ -105,7 +111,7 @@ header {
     flex-wrap: wrap;
     gap: 10px;
     justify-content: center; /* دکمه‌ها در هر ردیف وسط‌چین باشن */
-    transition: transform 0.6s ease, box-shadow 0.6s ease;
+    transition: transform 0.9s ease, box-shadow 0.9s ease;
     
     
 }
@@ -123,10 +129,11 @@ html {
 
 button {
   margin: 20px;
-  background-color: #0d69ca9f;
+  background-color: #facd0567;
   backdrop-filter: blur(15px);
   -webkit-backdrop-filter: blur(15px);
-  color: #ffffff;
+  color: #361f32;
+  border: #70da34 1px;
   border-radius: 10px;
   padding: 20px;
   

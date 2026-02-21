@@ -4,7 +4,7 @@ body {
   margin: 0;
   padding: 0;
   line-height: 1.6;
-  background-image: url('../IMG/back.png');
+  background:linear-gradient(135deg , #ffffff,#000);
   background-size: cover;
   background-position: center;
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
@@ -22,7 +22,7 @@ header {
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
   padding: 20px;
   color: #fff;
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  transition: transform 0.5s ease, box-shadow 0.5s ease;
   margin: 40px;
   border-radius: 10px;
 
@@ -57,7 +57,7 @@ header:hover {
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
   padding: 20px;
   color: #fff;
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  transition: transform 0.5s ease, box-shadow 0.5s ease;
   border-radius: 10px;
 }
 
@@ -121,7 +121,7 @@ header:hover {
   justify-content: center;
   /* دکمه‌ها در هر ردیف وسط‌چین باشن */
   
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  transition: transform 0.9s ease, box-shadow 0.9s ease;
 
 }
 
