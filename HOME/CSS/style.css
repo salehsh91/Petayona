@@ -1,0 +1,372 @@
+body {
+  font-family: sans-serif;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+  background-image: url('../../LOGO/background.svg');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  color: #333;
+  box-shadow: 0 4px 15px #00000033;
+}
+
+header {
+  background: #61616177;
+  color: #ffffff;
+  padding: 1rem;
+  text-align: center;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+}
+
+.box-top {
+  border-radius: 10px;
+  background-color: #00000059;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  color: #d1d1d1;
+}
+
+nav a {
+  color: #000000;
+  margin: 0 1rem;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  text-decoration: none;
+}
+
+nav {
+  background-color: #a0a0a0;
+  text-align: center;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  margin: 20px;
+  border-radius: 10px;
+}
+
+
+
+body {
+  margin: 0;
+  padding: 30px;
+  font-family: sans-serif;
+}
+
+
+
+.scroll-box {
+  margin: 20px;
+  overflow-x: auto;
+  overflow-y: hidden;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  display: flex;
+  ;
+  /* فعال کردن فلکس */
+  flex-direction: row;
+  /* چیدمان عمودی */
+  align-items: center;
+  /* وسط چین افقی */
+  gap: 15px;
+  /* فاصله بین عکس و دکمه */
+
+  white-space: nowrap;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  background: #47474767;
+  border-radius: 10px;
+  backdrop-filter: blur(2px);
+  -webkit-backdrop-filter: blur(2px);
+}
+
+.item {
+  height: 500px;
+  margin: 20px;
+  max-width: 500px;
+  color: #ffffff;
+  padding: 20px;
+  text-align: center;
+  border-radius: 8px;
+  box-shadow: 0 15px 15px rgba(0, 0, 0, 0.2);
+  transition: all 0.3s ease;
+
+}
+
+img {
+  width: 90%;
+  height: auto;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+
+
+
+main div .galaxy-z-flip-7 .item:hover {
+  background-color: #00aeff73;
+  transform: translateY(-10px) scale(1.05);
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.3);
+}
+
+main div .galaxy-z-flip-7 .item {
+  background: #007bff77;
+  backdrop-filter: blur(15px);
+  -webkit-backdrop-filter: blur(15px);
+  border-radius: 20px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  padding: 20px;
+  color: #fff;
+  
+
+}
+
+.item {
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+
+.box-top h1 {
+  margin: 15px;
+}
+
+.box-top h3 {
+  margin: 20px;
+}
+
+main div a div img {
+  height: auto;
+  border-radius: 8px;
+  margin: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+main div a div h1 {
+  margin-bottom: 30px;
+}
+
+footer {
+  background: #22222291;
+  color: #f3f3f3;
+  text-align: center;
+  padding: 1rem;
+  margin-top: 2rem;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+}
+
+@media (max-width: 600px) {
+  .container {
+    flex-direction: column;
+    /* عمودی کن */
+    gap: 10px;
+  }
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+main div .ios-26 .item:hover {
+  transform: translateY(-10px) scale(1.05);
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.3);
+}
+
+
+main div .Huawei-Mate-XT .item:hover {
+  background-color: #f53218af;
+  transform: translateY(-10px) scale(1.05);
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.3);
+}
+
+main div .Huawei-Mate-XT .item {
+  background: #ca0000ab;
+  backdrop-filter: blur(15px);
+  -webkit-backdrop-filter: blur(15px);
+  border-radius: 20px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  padding: 20px;
+  color: #fff;
+  
+
+}
+
+main div .ios-26 .item {
+  background: #0c0c0c23;
+  border-radius: 20px;
+  backdrop-filter: blur(5px);
+  color: white;
+
+}
+
+.Google-Pixel-10-series .item {
+
+  background: #ffffff1a;
+  backdrop-filter: blur(15px);
+  -webkit-backdrop-filter: blur(15px);
+  border-radius: 20px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  padding: 20px;
+  color: #fff;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.Google-Pixel-10-series .item:hover {
+  transform: translateY(-10px) scale(1.05);
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.3);
+}
+
+
+
+main div .iphone-17-normal .item {
+  background-color: #26ac4373;
+  backdrop-filter: blur(15px);
+  -webkit-backdrop-filter: blur(15px);
+  border-radius: 20px;
+  border: 1px solid rgba(23, 194, 0, 0.2);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  padding: 20px;
+  color: #fff;
+
+
+}
+
+main div .iphone-17-normal .item:hover {
+  background-color: #5cc93171;
+  transform: translateY(-10px) scale(1.05);
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.3);
+}
+
+.box {
+  background: #222222ad;
+
+  color: white;
+  align-items: center;
+  padding: 5px 10px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  font-weight: bold;
+  position: relative;
+  z-index: 2;
+  margin-bottom: 10px;
+  margin: 20px;
+}
+
+.headline {
+  border: 2px solid #ccc;
+  border-radius: 10px;
+}
+
+main div .redmi-note-10-pro-4g .item {
+  background-color: #1616168a;
+  backdrop-filter: blur(15px);
+  -webkit-backdrop-filter: blur(15px);
+  border-radius: 20px;
+  border: 1px solid rgba(53, 53, 53, 0.74);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  padding: 20px;
+  color: #fff;
+}
+
+main div .redmi-note-10-pro-4g .item:hover {
+  background-color: #000000a8;
+  transform: translateY(-10px) scale(1.05);
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.3);
+}
+
+main div .Galaxy-Z-TriFold .item:hover {
+  background-color: #101f5cc5;
+  transform: translateY(-10px) scale(1.05);
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.3);
+}
+
+main div .Galaxy-Z-TriFold .item {
+  background: #15161ab9;
+  backdrop-filter: blur(15px);
+  -webkit-backdrop-filter: blur(15px);
+  border-radius: 20px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  padding: 20px;
+  color: #fff;
+  
+
+}
+main div .nothing-phone-3 .item:hover {
+  background-color: #b8b3b2d3;
+  transform: translateY(-10px) scale(1.05);
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.3);
+}
+
+main div .nothing-phone-3 .item {
+  background: #b4b0af86;
+  backdrop-filter: blur(15px);
+  -webkit-backdrop-filter: blur(15px);
+  border-radius: 20px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  padding: 20px;
+  color: #fff;
+  
+
+}
+main div .ZTE-nubia-redmagic-11-pro-plus .item:hover {
+  background-color: #090b0fd5;
+  transform: translateY(-10px) scale(1.05);
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.3);
+  border-radius: 20px;
+  border: 2px solid #043286;
+}
+
+main div .ZTE-nubia-redmagic-11-pro-plus .item {
+  background: #090b0f9a;
+  backdrop-filter: blur(15px);
+  -webkit-backdrop-filter: blur(15px);
+  border-radius: 20px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  padding: 20px;
+  color: #fff;
+  
+
+}
+main div .Google-Pixel-10-Pro-Fold .item:hover {
+  background-color: #17b35db0;
+  transform: translateY(-10px) scale(1.05);
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.3);
+  border-radius: 27px;
+  border: 1.5px solid #FEC262;
+}
+
+main div .Google-Pixel-10-Pro-Fold .item {
+  background: #23b86685;
+  backdrop-filter: blur(15px);
+  -webkit-backdrop-filter: blur(15px);
+  border-radius: 20px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  padding: 20px;
+  color: #fff;
+}
+main div div .item img{
+  border-radius: 35px;
+}
+main div .OnePlus-15 .item:hover {
+  background-color: #b188d1be;
+  transform: translateY(-10px) scale(1.05);
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.3);
+  border-radius: 27px;
+  border: 2px solid #b3a2cf;
+}
+
+main div .OnePlus-15 .item {
+  background: #a15d84dc;
+  backdrop-filter: blur(15px);
+  -webkit-backdrop-filter: blur(15px);
+  border-radius: 20px;
+  border: 1px solid #9e677f;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  padding: 20px;
+  color: #fff;
+  
+
+}

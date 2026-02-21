@@ -1,0 +1,160 @@
+body {
+  font-family: sans-serif;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+  background-image: url('../IMG/back.jpg');
+  background-size: cover;
+  background-position: center;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  background-attachment: fixed;
+  color: #333;
+}
+
+header {
+  padding: 20px;
+  background-color: #52db3634;
+  backdrop-filter: blur(15px);
+  color: #ffffff;
+  margin: 40px;
+  border-radius: 10px;
+  transition: all 0.3s ease;
+  text-align: center;
+}
+
+ header:hover {
+  background-color: #32df0f49;
+
+  .box-header {
+    background-color: #2b990f65
+  }
+
+  transform: scale(1.05);
+}
+
+@media (max-width: 600px) {
+  .container {
+    flex-direction: column;
+    /* عمودی کن */
+    gap: 10px;
+  }
+}
+
+.box-header {
+  background-color: #24b11173;
+  transition: all 0.3s ease;
+  border-radius: 10px;
+}
+
+.box {
+  margin: 20px;
+
+  display: flex;
+  ;
+    /* فعال کردن فلکس */
+    flex-direction: column;
+    /* چیدمان عمودی */
+    align-items: center;
+    /* وسط چین افقی */
+    
+  
+
+  white-space: nowrap;
+  box-shadow: 0 0 10px rgba(0,0,0,0.2);
+  background: #97979723;
+  backdrop-filter: blur(5px);
+  border-radius: 10px;
+}
+.text {
+  width: 90%;
+  max-width: 1000px;
+  margin: 20px;
+  padding: 1rem;
+  background-color: #2be9125d;
+  color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.text p {
+  
+  line-height: 1.6;
+  white-space: normal; /* مهم: اجازه میده متن خودش بشکنه */
+  word-wrap: break-word; /* اگه یه کلمه خیلی بزرگ باشه هم بشکنه */
+}
+
+.shortcat {
+  display: flex;
+  ;
+    /* فعال کردن فلکس */
+    
+    align-items: left;
+    /* وسط چین افقی */
+    
+    background: #09ff0021;
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    border-radius: 20px;
+    border: 1px solid rgba(255, 255, 255, 0.082);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    margin: 50px;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center; /* دکمه‌ها در هر ردیف وسط‌چین باشن */
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    
+    
+}
+.shortcat button{
+  white-space: normal; /* مهم: اجازه میده متن خودش بشکنه */
+  word-wrap: break-word;
+  flex: 0 1 auto; /* اندازه دکمه‌ها خودش تنظیم بشه */
+}
+
+
+
+html {
+  scroll-behavior: smooth;
+}
+
+button {
+  margin: 20px;
+  background-color: #24b111a8;
+  color: #ffffff;
+  border-radius: 10px;
+  border: #2ad613;
+  padding: 20px;
+  
+}
+ img {
+  max-width: 90%;
+  min-width: 80%;
+  
+  border-radius: 10px;
+ }
+
+.i45 {
+  width: 45%;
+ }
+
+ .text {
+  perspective: 1200px;
+  position: relative;
+  transform-style: preserve-3d;
+}
+
+.shortcat:hover{
+  transform: translateY(-10px) scale(1.05);
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.3);
+  .shortcat button{
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.3);
+  }
+  
+}
+
+.text:hover {
+  transform: translateY(-10px) scale(1.05);
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.3);
+}
