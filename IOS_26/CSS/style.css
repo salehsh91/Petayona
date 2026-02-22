@@ -4,7 +4,7 @@ body {
   margin: 0;
   padding: 0;
   line-height: 1.6;
-  background-image: url('../IMG/back.png');
+  background:linear-gradient(35deg,#e100ff,#0011ff,#00ffb3);
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
@@ -20,7 +20,7 @@ header {
   color: #ffffff;
   margin: 40px;
   border-radius: 10px;
-  transition: all 0.3s ease;
+  transition: all 0.5s ease;
   text-align: center;
 }
 
@@ -122,7 +122,7 @@ header:hover {
   justify-content: center;
   /* دکمه‌ها در هر ردیف وسط‌چین باشن */
   
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  transition: transform 0.9s ease, box-shadow 0.9s ease;
 
 }
 

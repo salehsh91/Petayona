@@ -4,7 +4,7 @@ body {
   margin: 0;
   padding: 0;
   line-height: 1.6;
-  background-image: url('../IMG/back.png');
+  background:linear-gradient(0deg,#250000,#8f0000,#920000,#e60000,#ac0000,#a00000,#a50000,#250000);
   background-size: cover;
   background-position: center;
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
@@ -18,8 +18,9 @@ header {
   backdrop-filter: blur(1px);
   color: #ffffff;
   margin: 40px;
+  border: #b40707 1px solid;
   border-radius: 10px;
-  transition: all 0.3s ease;
+  transition: all 0.5s ease;
   text-align: center;
 }
 
@@ -111,7 +112,7 @@ header:hover {
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
   border: 1px solid #ac010170;
   justify-content: center;
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  transition: transform 0.9s ease, box-shadow 0.9s ease;
 }
 
 .shortcat button {

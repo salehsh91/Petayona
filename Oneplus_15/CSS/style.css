@@ -4,7 +4,7 @@ body {
   margin: 0;
   padding: 0;
   line-height: 1.6;
-  background-image: url('../IMG/back.png');
+  background:linear-gradient(110deg,#d628c8d0,#6415e4de);
   background-size: cover;
   background-position: center;
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
@@ -14,21 +14,21 @@ body {
 
 header {
   padding: 20px;
-    background: #007bff77;
+    background: #00000027;
   backdrop-filter: blur(15px);
   -webkit-backdrop-filter: blur(15px);
   color: #ffffff;
-  margin: 40px;
+  margin: 40px;border: #7512659a 1px solid;
   border-radius: 10px;
-  transition: all 0.3s ease;
+  transition: all 0.5s ease;
   text-align: center;
 }
 
  header:hover {
-  background-color: #00aeff73;
+  background-color: #6200ff31;
 
   .box-header {
-    background-color: #007bff
+    background-color: #3a0069
   }
 
   transform: scale(1.05);
@@ -43,7 +43,7 @@ header {
 }
 
 .box-header {
-  background-color: #00aeff;
+  background:linear-gradient(90deg,#3a0069,#ea00ff50);
   transition: all 0.3s ease;
   border-radius: 10px;
 }
@@ -72,12 +72,13 @@ header {
   max-width: 1000px;
   margin: 20px;
   padding: 1rem;
-    background: #007bff77;
+    background: #9900ff00;
   backdrop-filter: blur(15px);
   -webkit-backdrop-filter: blur(15px);
   color: #ffffff;
   border-radius: 10px;
   box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+  transition: transform 0.5s ease, box-shadow 0.5s ease;
 }
 
 .text p {
@@ -95,7 +96,7 @@ header {
     align-items: left;
     /* وسط چین افقی */
     
-    background: #ffffff1a;
+    background:linear-gradient(180deg,#ffffff00,#00000057);
     backdrop-filter: blur(15px);
     -webkit-backdrop-filter: blur(15px);
     border-radius: 20px;
@@ -105,7 +106,7 @@ header {
     flex-wrap: wrap;
     gap: 10px;
     justify-content: center; /* دکمه‌ها در هر ردیف وسط‌چین باشن */
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    transition: transform 0.9s ease, box-shadow 0.9s ease;
     
     
 }
@@ -123,10 +124,11 @@ html {
 
 button {
   margin: 20px;
-  background-color: #0d69ca9f;
+  background:linear-gradient(90deg,#fb7dff44,#7a55ff67);
   backdrop-filter: blur(15px);
   -webkit-backdrop-filter: blur(15px);
   color: #ffffff;
+  border: #c401ff1a 1px solid;
   border-radius: 10px;
   padding: 20px;
   
@@ -141,54 +143,8 @@ button {
 .i45 {
   width: 45%;
  }
-
- .text {
-  perspective: 1200px;
-  position: relative;
-  transform-style: preserve-3d;
-}
-
-/* نیمه بالا */
-.text::before {
-  content: '';
-  position: absolute;
-  top: 0;
-  left: 0;
-  height: 50%;
-  width: 100%;
-  background: #0004ff36;
-  border-radius: 10px 10px 0 0;
-  transform-origin: bottom center;
-  transition: transform 0.5s ease;
-  z-index: 2;
-  pointer-events: none; /* اجازه بده متن کلیک‌پذیر بمونه */
-  opacity: 0.5;
-}
-
-/* نیمه پایین */
-.text::after {
-  content: '';
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  height: 50%;
-  width: 100%;
-  background: #0004ff36;
-  border-radius: 0 0 10px 10px;
-  transform-origin: top center;
-  transition: transform 0.5s ease;
-  z-index: 1;
-  pointer-events: none;
-  opacity: 0.5;
-}
-
-/* تا شدن */
-.text:hover::before {
-  transform: rotateX(-10deg);
-}
-
-.text:hover::after {
-  transform: rotateX(12deg);
+.text:hover{
+  transform: translateY(-10px) scale(1.05);
 }
 
 .shortcat:hover{
